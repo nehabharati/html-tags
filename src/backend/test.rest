@@ -1,0 +1,527 @@
+GET http://localhost:5000/tags
+
+###
+GET http://localhost:5000/tags/5ee74b7908201d8b7a2eb927
+
+###
+
+POST http://localhost:5000/tags 
+Content-Type: application/json
+ 
+ {
+   "command": "<a>",
+   "description": "Specific a anchor (Hyperlink)Use for link in internal/external web documents.",
+   "link": "https://way2tutorial.com/html/tag/html_a_tag.php"
+ },
+ {
+   "command": "<abbr>",
+   "description": "Describes an abbreviation (acronyms)",
+   "link": "https://way2tutorial.com/html/tag/html_abbr_tag.php"
+ }, 
+ {
+   "command": "<address>",
+   "description": "Describes an address information",
+   "link": "https://way2tutorial.com/html/tag/html_address_tag.php"
+ }, 
+ {
+   "command": "<area>",
+   "description": "Defines an area in an image map",
+   "link": "https://way2tutorial.com/html/tag/html_area_tag.php"
+ },
+ {
+   "command": "<article>",
+   "description": "Defines an article",
+   "link": "https://way2tutorial.com/html/tag/html_article_tag.php"
+ },
+ {
+   "command": "<aside>",
+   "description": "Describes contain set(or write) on aside place in page contain",
+   "link": "https://way2tutorial.com/html/tag/html_aside_tag.php" 
+ },
+ {
+   "command": "<audio>",
+   "description": "Specific audio content",
+   "link": "https://way2tutorial.com/html/tag/html_audio_tag.php"
+ },
+ {
+   "command": "<b>",
+   "description": "Specific text weight bold",
+   "link": "https://way2tutorial.com/html/tag/html_b_tag.php"
+ },
+ {
+   "command": "<base>",
+   "description": "Define a base URL for all the links with in a web page",
+   "link": "https://way2tutorial.com/html/tag/html_base_tag.php"
+ },  
+ {
+   "command": "<bdo>",
+   "description": "Specific direction of text display",
+   "link": "https://way2tutorial.com/html/tag/html_bdo_tag.php" 
+ }, 
+ {
+   "command": "<blockquote>",
+   "description": "Specifies a long quotation",
+   "link": "https://way2tutorial.com/html/tag/html_blockquote_tag.php"
+ },
+ {
+   "command": "<body>",
+   "description": "Defines a main section(body) part in HTML document",
+   "link": "https://way2tutorial.com/html/tag/html_body_tag.php" 
+ },
+ {
+   "command": "<br />",
+   "description": "Specific a single line break",
+   "link": "https://way2tutorial.com/html/tag/html_br_tag.php"
+ },
+ {
+   "command": "<button>",
+   "description": "Specifies a press/push button",
+   "link": "https://way2tutorial.com/html/tag/html_button_tag.php" 
+ },
+ {
+   "command": "<canvas>",
+   "description": "Specifies the display graphics on HTML web documment",
+   "link": "https://way2tutorial.com/html/tag/html_canvas_tag.php"
+ },
+ {
+   "command": "<caption>",
+   "description": "Define a table caption",
+   "link": "https://way2tutorial.com/html/tag/html_caption_tag.php" 
+ }, 
+ {
+   "command": "<cite>",
+   "description": "Specifies a text citation",
+   "link": "https://way2tutorial.com/html/tag/html_cite_tag.php" 
+ },
+ {
+   "command": "<code>",
+   "description": "Specifies computer code text",
+   "link": "https://way2tutorial.com/html/tag/html_code_tag.php"
+ },
+ {
+   "command": "<col>",
+   "description": "Specifies a each column within a <colgroup> element in table",
+   "link": "https://way2tutorial.com/html/tag/html_col_tag.php" 
+ },
+ {
+   "command": "<colgroup>",
+   "description": "Defines a group of one or more columns inside table",
+   "link": "https://way2tutorial.com/html/tag/html_colgroup_tag.php"
+ },
+ {
+   "command": "<command>",
+   "description": "Define a command button, invoke as per user action",
+   "link": "https://way2tutorial.com/html/tag/html_command_tag.php" 
+ }, 
+ {
+   "command": "<datalist>",
+   "description": "Define a list of pre-defined options surrounding <input> tag",
+   "link": "https://way2tutorial.com/html/tag/html_datalist_tag.php" 
+ },
+ {
+   "command": "<dd>",
+   "description": "Defines a definition description in a definition list",
+   "link": "https://way2tutorial.com/html/tag/html_dd_tag.php"
+ },
+ {
+   "command": "<del>",
+   "description": "Specific text deleted in web document",
+   "link": "https://way2tutorial.com/html/tag/html_del_tag.php" 
+ },
+ {
+   "command": "<details>",
+   "description": "Define a additional details hide or show as per user action",
+   "link": "https://way2tutorial.com/html/tag/html_details_tag.php" 
+ },
+ {
+   "command": "<dfn>",
+   "description": "Define a definition team",
+   "link": "https://way2tutorial.com/html/tag/html_dfn_tag.php"
+ }, 
+ {
+   "command": "<dir>",
+   "description": "Define a directory list",
+   "link": "https://way2tutorial.com/html/tag/html_dir_tag.php"
+ },
+ {
+   "command": "<div>",
+   "description": "Define a division part",
+   "link": "https://way2tutorial.com/html/tag/html_div_tag.php"
+ },
+ {
+   "command": "<dl>",
+   "description": "Define a definition list",
+   "link": "https://way2tutorial.com/html/tag/html_dl_tag.php"
+ },
+ {
+   "command": "<dt>",
+   "description": "Define a definition team",
+   "link": "https://way2tutorial.com/html/tag/html_dt_tag.php"
+ },
+ {
+   "command": "<em>",
+   "description": "Define a text is emphasize format",
+   "link": "https://way2tutorial.com/html/tag/html_em_tag.php" 
+ },
+ {
+   "command": "<embed>",
+   "description": "Define a embedding external application using a relative plug-in",
+   "link": "https://way2tutorial.com/html/tag/html_embed_tag.php" 
+ }, 
+ {
+   "command": "<fieldset>",
+   "description": "Defines a grouping of related form elements",
+   "link": "https://way2tutorial.com/html/tag/html_fieldset_tag.php"
+ },
+ {
+   "command": "<figcaption>",
+   "description": "Represents a caption text corresponding with a figure element",
+   "link": "https://way2tutorial.com/html/tag/html_figcaption_tag.php" 
+ },
+ {
+   "command": "<figure>",
+   "description": "Represents self-contained content corresponding with a <figcaption> element",
+   "link": "https://way2tutorial.com/html/tag/html_figure_tag.php" 
+ }, 
+ {
+   "command": "<footer>",
+   "description": "Defines a footer section containing details about the author, copyright, contact us, sitemap, or links to related documents.",
+   "link": "https://way2tutorial.com/html/tag/html_footer_tag.php"
+ },
+ {
+   "command": "<form>",
+   "description": "Defines a form section that having interactive input controls to submit form information to a server.",
+   "link": "https://way2tutorial.com/html/tag/html_form_tag.php"
+ }, 
+ {
+   "command": "<h1> to <h6>",
+   "description": "Defines a Headings level from 1 to 6 different sizes.",
+   "link": "https://way2tutorial.com/html/tag/html_h1_to_h6_tag.php"
+ },
+ {
+   "command": "<head>",
+   "description": "Defines header section of HTML document.",
+   "link": "https://way2tutorial.com/html/tag/html_head_tag.php" 
+ },
+ {
+   "command": "<header>",
+   "description": "Defines as a container that hold introductory content or navigation links.",
+   "link": "https://way2tutorial.com/html/tag/html_header_tag.php"
+ }, 
+ {
+   "command": "<hr />",
+   "description": "Represent a thematic break between paragraph-level tags. It is typically draw horizontal line.",
+   "link": "https://way2tutorial.com/html/tag/html_hr_tag.php"
+ },
+ {
+   "command": "<html>",
+   "description": "Define a document is a HTML markup language",
+   "link": "https://way2tutorial.com/html/tag/html_html_tag.php" 
+ },
+ {
+   "command": "<i>",
+   "description": "Defines a italic format text",
+   "link": "https://way2tutorial.com/html/tag/html_i_tag.php" 
+ },
+ {
+   "command": "<iframe>",
+   "description": "Defines a inline frame that embedded external content into current web document.",
+   "link": "https://way2tutorial.com/html/tag/html_iframe_tag.php"
+ },
+ {
+   "command": "<img>",
+   "description": "Used to insert image into a web document.",
+   "link": "https://way2tutorial.com/html/tag/html_img_tag.php" 
+ },
+ {
+   "command": "<input>",
+   "description": "Define a get information in selected input",
+   "link": "https://way2tutorial.com/html/tag/html_input_tag.php" 
+ },
+ {
+   "command": "<ins>",
+   "description": "Used to indicate text that is inserted into a page and indicates changes to a document.",
+   "link": "https://way2tutorial.com/html/tag/html_ins_tag.php" 
+ }, 
+ {
+   "command": "<kbd>",
+   "description": "Used to identify text that are represents keyboard input.",
+   "link": "https://way2tutorial.com/html/tag/html_kbd_tag.php" 
+ }, 
+ {
+   "command": "<label>",
+   "description": "Used to caption a text label with a form <input> element.",
+   "link": "https://way2tutorial.com/html/tag/html_label_tag.php"
+ },
+ {
+   "command": "<legend>",
+   "description": "Used to add a caption (title) to a group of related form elements that are grouped together into the <fieldset> tag.",
+   "link": "https://way2tutorial.com/html/tag/html_legend_tag.php"
+ },
+ {
+   "command": "<li>",
+   "description": "Define a list item either ordered list or unordered list.",
+   "link": "https://way2tutorial.com/html/tag/html_li_tag.php" 
+ },
+ {
+   "command": "<link>",
+   "description": "Used to load an external stylesheets into HTML document.",
+   "link": "https://way2tutorial.com/html/tag/html_link_tag.php" 
+ },
+ {
+   "command": "<map>",
+   "description": "Defines an clickable image map.",
+   "link": "https://way2tutorial.com/html/tag/html_map_tag.php" 
+ },
+ {
+   "command": "<mark>",
+   "description": "Used to highlighted (marked) specific text.",
+   "link": "https://way2tutorial.com/html/tag/html_mark_tag.php" 
+ },
+ {
+   "command": "<menu>",
+   "description": "Used to display a unordered list of items/menu of commands.",
+   "link": "https://way2tutorial.com/html/tag/html_menu_tag.php" 
+ },
+ {
+   "command": "<meta>",
+   "description": "Used to provide structured metadata about a web page.",
+   "link": "https://way2tutorial.com/html/tag/html_meta_tag.php" 
+ },
+ {
+   "command": "<meter>",
+   "description": "Used to measure data within a given range.",
+   "link": "https://way2tutorial.com/html/tag/html_meter_tag.php" 
+ },
+ {
+   "command": "<nav>",
+   "description": "Used to defines group of navigation links.",
+   "link": "https://way2tutorial.com/html/tag/html_nav_tag.php" 
+ }, 
+ {
+   "command": "<noscript>",
+   "description": "Used to provide an fall-back content to the browser that does not support the JavaScript.",
+   "link": "https://way2tutorial.com/html/tag/html_noscript_tag.php"
+ },
+ {
+   "command": "<object>",
+   "description": "Used to embedded objects such as images, audio, videos, Java applets, and Flash animations.",
+   "link": "https://way2tutorial.com/html/tag/html_object_tag.php" 
+ },
+ {
+   "command": "<ol>",
+   "description": "Defines an ordered list of items.",
+   "link": "https://way2tutorial.com/html/tag/html_ol_tag.php" 
+ },
+ {
+   "command": "<optgroup>",
+   "description": "Used to create a grouping of options, the related options are grouped under specific headings.",
+   "link": "https://way2tutorial.com/html/tag/html_optgroup_tag.php" 
+ },
+ {
+   "command": "<option>",
+   "description": "Represents option items within a <select>, <optgroup> or <datalist> element.",
+   "link": "https://way2tutorial.com/html/tag/html_option_tag.php" 
+ },
+ {
+   "command": "<output>",
+   "description": "Used for representing the result of a calculation.",
+   "link": "https://way2tutorial.com/html/tag/html_output_tag.php" 
+ },
+ {
+   "command": "<p>",
+   "description": "Used to represents a paragraph text.",
+   "link": "https://way2tutorial.com/html/tag/html_p_tag.php" 
+ },
+ {
+   "command": "<param>",
+   "description": "Provides parameters for embedded object element.",
+   "link": "https://way2tutorial.com/html/tag/html_param_tag.php" 
+ },
+ {
+   "command": "<pre>",
+   "description": "Used to represents preformatted text.",
+   "link": "https://way2tutorial.com/html/tag/html_pre_tag.php" 
+ },
+ {
+   "command": "<progress>",
+   "description": "Represents the progress of a task.",
+   "link": "https://way2tutorial.com/html/tag/html_progress_tag.php" 
+ },
+ {
+   "command": "<q>",
+   "description": "Represents the short quotation.",
+   "link": "https://way2tutorial.com/html/tag/html_q_tag.php" 
+ },
+ {
+   "command": "<rp>",
+   "description": "Used to provide parentheses around fall-back content to the browser that does not support the ruby annotations.",
+   "link": "https://way2tutorial.com/html/tag/html_rp_tag.php"
+ },
+ {
+   "command": "<rt>",
+   "description": "Specifies the ruby text of ruby annotation.",
+   "link": "https://way2tutorial.com/html/tag/html_rt_tag.php"
+ },
+ {
+   "command": "<ruby>",
+   "description": "Used to represents a ruby annotation.",
+   "link": "https://way2tutorial.com/html/tag/html_ruby_tag.php" 
+ },
+ {
+   "command": "<s>",
+   "description": "Text display in strikethrough style.",
+   "link": "https://way2tutorial.com/html/tag/html_s_tag.php" 
+ },
+ {
+   "command": "<samp>",
+   "description": "Represents text that should be interpreted as sample output from a computer program.",
+   "link": "https://way2tutorial.com/html/tag/html_samp_tag.php" 
+ },
+ {
+   "command": "<script>",
+   "description": "Defines client-side JavaScript.",
+   "link": "https://way2tutorial.com/html/tag/html_script_tag.php"
+ },
+ {
+   "command": "<section>",
+   "description": "Used to divide a document into number of different generic section.",
+   "link": "https://way2tutorial.com/html/tag/html_section_tag.php"
+ },
+ {
+   "command": "<select>",
+   "description": "Used to create a drop-down list.",
+   "link": "https://way2tutorial.com/html/tag/html_select_tag.php" 
+ },
+ {
+   "command": "<small>",
+   "description": "Used to makes the text one size smaller.",
+   "link": "https://way2tutorial.com/html/tag/html_small_tag.php" 
+ },
+ {
+   "command": "<source>",
+   "description": "Used to specifies multiple media resources.",
+   "link": "https://way2tutorial.com/html/tag/html_source_tag.php" 
+ },
+ {
+   "command": "<span>",
+   "description": "Used to grouping and applying styles to inline elements.",
+   "link": "https://way2tutorial.com/html/tag/html_span_tag.php"
+ },
+ {
+   "command": "<strike>",
+   "description": "Represents strikethrough text.",
+   "link": "https://way2tutorial.com/html/tag/html_strike_tag.php"
+ },
+ {
+   "command": "<strong>",
+   "description": "Represents strong emphasis greater important text.",
+   "link": "https://way2tutorial.com/html/tag/html_strong_tag.php" 
+ },
+ {
+   "command": "<style>",
+   "description": "Used to add CSS style to an HTML document.",
+   "link": "https://way2tutorial.com/html/tag/html_style_tag.php" 
+ },
+ {
+   "command": "<sub>",
+   "description": "Represents inline subscript text.",
+   "link": "https://way2tutorial.com/html/tag/html_sub_tag.php" 
+ },
+ {
+   "command": "<sup>",
+   "description": "Represents inline superscript text.",
+   "link": "https://way2tutorial.com/html/tag/html_sup_tag.php" 
+ },
+ {
+   "command": "<table>",
+   "description": "Used to defines a table in an HTML document.",
+   "link": "https://way2tutorial.com/html/tag/html_table_tag.php" 
+ },
+ {
+   "command": "<tbody>",
+   "description": "Used for grouping table rows.",
+   "link": "https://way2tutorial.com/html/tag/html_tbody_tag.php" 
+ },
+ {
+   "command": "<td>",
+   "description": "Used for creates standard data cell in HTML table.",
+   "link": "https://way2tutorial.com/html/tag/html_td_tag.php" 
+ },
+ {
+   "command": "<textarea>",
+   "description": "Create multi-line text input.",
+   "link": "https://way2tutorial.com/html/tag/html_textarea_tag.php" 
+ },
+ {
+   "command": "<tfoot>",
+   "description": "Used to adding a footer to a table that containing summary of the table data.",
+   "link": "https://way2tutorial.com/html/tag/html_tfoot_tag.php" 
+ },
+ {
+   "command": "<th>",
+   "description": "Used for creates header of a group of cell in HTML table.",
+   "link": "https://way2tutorial.com/html/tag/html_th_tag.php" 
+ },
+ {
+   "command": "<thead>",
+   "description": "Used to adding a header to a table that containing header information of the table.",
+   "link": "https://way2tutorial.com/html/tag/html_thead_tag.php" 
+ },
+ {
+   "command": "<time>",
+   "description": "Represents the date and/or time in an HTML document.",
+   "link": "https://way2tutorial.com/html/tag/html_time_tag.php" 
+ },
+ {
+   "command": "<title>",
+   "description": "Represents title to an HTML document.",
+   "link": "https://way2tutorial.com/html/tag/html_title_tag.php" 
+ },
+ {
+   "command": "<tr>",
+   "description": "Defines a row of cells in a table.",
+   "link": "https://way2tutorial.com/html/tag/html_tr_tag.php" 
+ },
+ {
+   "command": "<track>",
+   "description": "Represents text tracks for both the <audio> and <video> tags.",
+   "link": "https://way2tutorial.com/html/tag/html_track_tag.php" 
+ }, 
+ {
+   "command": "<u>",
+   "description": "Represents underlined text.",
+   "link": "https://way2tutorial.com/html/tag/html_u_tag.php"
+ },
+ {
+   "command": "<ul>",
+   "description": "Defines an unordered list of items.",
+   "link": "https://way2tutorial.com/html/tag/html_ul_tag.php"
+ },
+ {
+   "command": "<var>",
+   "description": "Represents a variable in a computer program or mathematical equation.",
+   "link": "https://way2tutorial.com/html/tag/html_var_tag.php" 
+ },
+ {
+   "command": "<video>",
+   "description": "Used to embed video content.",
+   "link": "https://way2tutorial.com/html/tag/html_video_tag.php" 
+ },
+ {
+   "command": "<wbr>",
+   "description": "Defines a word break opportunity in a long string of text.",
+   "link": "https://way2tutorial.com/html/tag/html_wbr_tag.php" 
+ }
+
+###
+
+DELETE http://localhost:5000/tags/5ee75d369181428d3216094a
+
+###
+PATCH http://localhost:5000/tags/5ee751114e05b38c0593dac5
+Content-Type: application/json
+
+{
+    "name":"new name"
+}
